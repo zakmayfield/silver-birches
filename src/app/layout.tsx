@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={quicksand.className}>
+      <body className={`${quicksand.className} px-24`}>
         <AppHeader />
         <PageLayout>{children}</PageLayout>
         <Footer />
