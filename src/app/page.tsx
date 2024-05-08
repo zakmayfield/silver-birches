@@ -1,7 +1,5 @@
+import { Home } from '@/features/home';
+
 export default function Page() {
-  return (
-    <main>
-      <h1>/home</h1>
-    </main>
-  );
+  return <Home />;
 }
