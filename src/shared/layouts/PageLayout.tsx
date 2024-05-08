@@ -5,5 +5,5 @@ interface PageLayoutProps {
 }
 
 export const PageLayout: FC<PageLayoutProps> = ({ children }) => {
-  return <main>{children}</main>;
+  return <main className='min-h-[50vh] border rounded-lg p-6'>{children}</main>;
 };
