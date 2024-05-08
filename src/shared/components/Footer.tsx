@@ -5,10 +5,10 @@ interface FooterProps {}
 
 export const Footer: FC<FooterProps> = ({}) => {
   return (
-    <footer className='flex items-center justify-center gap-12 border rounded-lg'>
+    <footer className='flex items-center justify-center border rounded-lg'>
       <Logo />
 
-      <div className='flex items-start justify-center gap-12 border rounded-lg w-full'>
+      <div className='flex items-start justify-center gap-24 border rounded-lg w-full'>
         <div>
           <h6>Contact</h6>
 
