@@ -12,6 +12,7 @@ export const Home: FC<HomeProps> = ({}) => {
           src={cabins1}
           alt='Photo by Ryan Stone: cabin in the woods'
           className='rounded-lg'
+          priority={true}
         />
       </div>
 
