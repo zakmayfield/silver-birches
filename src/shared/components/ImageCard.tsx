@@ -23,8 +23,8 @@ export const ImageCard: FC<ImageCardProps> = ({
     <div className={`${className ?? ''}`}>
       <div className=''>
         <h3>{title}</h3>
-        <div className=''>
-          <Image src={src} alt={alt} width={width} className='w-full' />
+        <div>
+          <Image src={src} alt={alt} width={width} className='rounded-md' />
         </div>
       </div>
     </div>
